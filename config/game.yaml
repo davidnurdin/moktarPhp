@@ -12,7 +12,7 @@ game:
   lang: fr
   online: false
   # phones: floating joystick (diagonals = walk + jump), A = jump, B = take / throw
-  touch: { pad: stick, a: Up, b: Space, start: Return, select: P, labels: { a: SAUT, b: PRENDRE, start: START, select: PAUSE } }
+  touch: { pad: stick, a: Up, b: Space, start: Return, select: P, labels: { a: SAUT, b: PRENDRE, start: START, select: PAUSE, rotate: "TOURNEZ VOTRE TÉLÉPHONE" } }
   controls: "Flèches : marcher / sauter (haut) / s'accroupir (bas) · Espace : prendre / lancer · Entrée : valider · P : pause · M : musique"
   # what `bin/jumphp test` runs headless: a bot plays the first level
   smoke:
