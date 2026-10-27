@@ -1,0 +1,21 @@
+# Static analysis of the game (bin/jumphp test <game> runs it when the engine dev tools are installed:
+# bin/jumphp test engine once). Level 5: wrong types, unknown methods, missing arguments.
+parameters:
+    level: 5
+    paths: [src]
+    scanFiles: [../../engine/stubs/sdl.stub.php]
+    reportUnmatchedIgnoredErrors: false
+    ignoreErrors:
+        - identifier: trait.unused
+        # src/Titus is a faithful port of C code: the globals change inside generators (phpstan cannot
+        # see it), and some dead branches / unread fields of the original are kept on purpose
+        - identifier: identical.alwaysFalse
+          path: src/Titus/*
+        - identifier: identical.alwaysTrue
+          path: src/Titus/*
+        - identifier: greater.alwaysFalse
+          path: src/Titus/*
+        - identifier: property.onlyWritten
+          path: src/Titus/*
+        - identifier: nullCoalesce.offset
+          path: src/Titus/*

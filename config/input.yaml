@@ -1,0 +1,19 @@
+# Actions of the game => keys / pad / touch (the engine defines up, down, left, right, confirm, back, pause).
+# GameScene turns them into the keys of the original code (App\Titus\Game::KEY_*).
+actions:
+  up: [Up, pad0:up, touch:up]
+  down: [Down, pad0:down, touch:down]
+  left: [Left, pad0:left, touch:left]
+  right: [Right, pad0:right, touch:right]
+  fire: [Space, Left Ctrl, pad0:button0, pad0:button2]
+  start: [Return, Keypad Enter, pad0:button7, touch:tap]
+  quit: [Escape, pad0:button1]
+  pause: [P, pad0:button6]
+  music: [M]
+  energy: [E]
+  status: [F4]
+  suicide: [F1]
+  # cheats (only with MOKTAR_CHEATS=1)
+  cheat_god: [G]
+  cheat_noclip: [N]
+  cheat_skip: [S]

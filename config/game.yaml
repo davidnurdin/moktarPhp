@@ -1,0 +1,20 @@
+# The game. Every key is optional (defaults: JumPHP\Kernel\GameConfig::DEFAULTS).
+game:
+  id: moktar
+  title: "MOKTAR"
+  version: 0.1.0
+  description: "Port PHP du moteur OpenTitus : le jeu de plateforme de 1991, avec ses fichiers originaux (.SQZ)."
+  width: 320                    # the original screen: 320x200 (game area 320x192)
+  height: 200
+  scale: 3
+  background: [0, 0, 0]
+  start_scene: App\Scene\GameScene
+  lang: fr
+  online: false
+  # phones: floating joystick (diagonals = walk + jump), A = jump, B = take / throw
+  touch: { pad: stick, a: Up, b: Space, start: Return, select: P, labels: { a: SAUT, b: PRENDRE, start: START, select: PAUSE } }
+  controls: "Flèches : marcher / sauter (haut) / s'accroupir (bas) · Espace : prendre / lancer · Entrée : valider · P : pause · M : musique"
+  # what `bin/jumphp test` runs headless: a bot plays the first level
+  smoke:
+    scene: App\Scene\GameScene
+    params: { demo: true, level: 0 }

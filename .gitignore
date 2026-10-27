@@ -1,0 +1,12 @@
+/vendor/
+/var/*
+!/var/.gitkeep
+/dist/
+/.build/
+/cache/
+# original game files (proprietary): never commit them
+/assets/data/*
+/assets/music/*
+!/assets/data/README.md
+/core
+/core.[0-9]*
