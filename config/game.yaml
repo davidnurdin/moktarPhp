@@ -4,6 +4,9 @@ game:
   title: "MOKTAR"
   version: 0.1.0
   description: "Port PHP du moteur OpenTitus : le jeu de plateforme de 1991, avec ses fichiers originaux (.SQZ)."
+  descriptions:                 # the description in the playground's languages (jumphp.net shows the visitor's)
+    fr: "Port PHP du moteur OpenTitus : le jeu de plateforme de 1991, avec ses fichiers originaux (.SQZ)."
+    en: "A PHP port of the OpenTitus engine: the 1991 platform game, with its original files (.SQZ)."
   width: 320                    # the original screen: 320x200 (game area 320x192)
   height: 200
   scale: 3
