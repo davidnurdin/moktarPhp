@@ -7,6 +7,18 @@ game:
   descriptions:                 # the description in the playground's languages (jumphp.net shows the visitor's)
     fr: "Port PHP du moteur OpenTitus : le jeu de plateforme de 1991, avec ses fichiers originaux (.SQZ)."
     en: "A PHP port of the OpenTitus engine: the 1991 platform game, with its original files (.SQZ)."
+    es: "Una adaptación en PHP del motor OpenTitus: el juego de plataformas de 1991, con sus archivos originales (.SQZ)."
+    de: "Eine PHP-Portierung der OpenTitus-Engine: das Jump-'n'-Run-Spiel von 1991 mit seinen Originaldateien (.SQZ)."
+    it: "Un port in PHP del motore OpenTitus: il videogioco a piattaforme del 1991, con i suoi file originali (.SQZ)."
+    pt: "Uma adaptação em PHP do motor OpenTitus: o jogo de plataforma de 1991, com seus arquivos originais (.SQZ)."
+    nl: "Een PHP-port van de OpenTitus-engine: het platformspel uit 1991, met de originele bestanden (.SQZ)."
+    pl: "Port silnika OpenTitus napisany w PHP: platformówka z 1991 roku, korzystająca z oryginalnych plików (.SQZ)."
+    ru: "Порт движка OpenTitus на PHP: платформер 1991 года с его оригинальными файлами (.SQZ)."
+    uk: "Порт рушія OpenTitus на PHP: платформер 1991 року з його оригінальними файлами (.SQZ)."
+    tr: "OpenTitus motorunun PHP'ye aktarımı: 1991 yapımı platform oyunu, orijinal dosyalarıyla (.SQZ)."
+    ja: "OpenTitusエンジンのPHP移植版。1991年のプラットフォームゲームを、オリジナルのファイル(.SQZ)のまま遊べます。"
+    zh: "OpenTitus 引擎的 PHP 移植版:1991 年的平台跳跃游戏,使用其原始文件(.SQZ)。"
+    ko: "OpenTitus 엔진의 PHP 포팅: 원본 파일(.SQZ)을 그대로 사용하는 1991년 플랫폼 게임입니다."
   width: 320                    # the original screen: 320x200 (game area 320x192)
   height: 200
   scale: 3
