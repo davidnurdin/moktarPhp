@@ -1,3 +1,6 @@
+> **⚠️ This repository has moved to [https://git.jumphp.net/jumphp/moktarPhp](https://git.jumphp.net/jumphp/moktarPhp)** — it is archived here (read-only) and no longer updated.
+> **⚠️ Ce dépôt a déménagé sur [https://git.jumphp.net/jumphp/moktarPhp](https://git.jumphp.net/jumphp/moktarPhp)** — il est archivé ici (lecture seule) et n'est plus mis à jour.
+
 # MOKTAR (JumPHP)
 
 Portage en PHP d'[OpenTitus](https://github.com/stople/OpenTitus), le moteur libre du jeu de plateforme
